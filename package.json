@@ -11,13 +11,20 @@
     "cypress:cache:list": "cypress cache list",
     "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'",
-    "set-status": "set-status"
+    "set-status": "set-status",
+    "app:dev": "snowpack dev"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "ok-file": "1.5.2"
+    "cypress": "^6.6.0",
+    "ok-file": "1.5.2",
+    "prosemirror-model": "^1.13.3",
+    "prosemirror-schema-basic": "^1.1.2",
+    "prosemirror-state": "^1.3.4",
+    "prosemirror-view": "^1.18.0",
+    "snowpack": "^3.0.13"
   },
   "repository": {
     "type": "git",
